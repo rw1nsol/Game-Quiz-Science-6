@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grade 6 Science Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Grade 6 Science Quiz</h1>
+
+  <div id="info-bar">
+    <span id="question-count"></span>
+    <span id="timer">⏱ 20</span>
+  </div>
+
+  <div id="quiz-box">
+    <h2 id="question"></h2>
+    <div id="choices"></div>
+    <button id="next-btn" disabled>Next</button>
+  </div>
+
+  <div id="result" class="hidden"></div>
+</div>
+
+<!-- Sound Effects -->
+<audio id="correctSound" src="https://assets.mixkit.co/sfx/preview/mixkit-correct-answer-tone-2870.mp3"></audio>
+<audio id="wrongSound" src="https://assets.mixkit.co/sfx/preview/mixkit-wrong-answer-fail-notification-946.mp3"></audio>
+<audio id="finishSound" src="https://assets.mixkit.co/sfx/preview/mixkit-game-level-completed-2059.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
